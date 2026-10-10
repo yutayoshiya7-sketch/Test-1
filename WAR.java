@@ -14,28 +14,28 @@ public class WAR {
         char userCardSuit;
 
         if(computerCard <= 13){
-            computerCardSuit = 'C';
+            computerCardSuit = 'Club';
         }
         else if (computerCard <=26){
-            computerCardSuit = 'D';
+            computerCardSuit = 'Diamond';
         }
         else if (computerCard <=39){
-            computerCardSuit = 'H';
+            computerCardSuit = 'Heart';
         }
         else {
-            computerCardSuit = 'S';
+            computerCardSuit = 'Spade';
         }
          if(userCard <= 13){
-            userCardSuit = 'C';
+            userCardSuit = 'Club';
         }
         else if (userCard <=26){
-            userCardSuit = 'D';
+            userCardSuit = 'Diamond';
         }
         else if (userCard <=39){
-            userCardSuit = 'H';
+            userCardSuit = 'Heart';
         }
         else {
-            userCardSuit = 'S';
+            userCardSuit = 'Spade';
         }
 
         //determine the value of the card
